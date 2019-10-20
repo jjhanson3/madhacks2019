@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/find_ride_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/top_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#4CAF50"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="="
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="#4CAF50" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" ECO-RIDE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:text="#"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="#4CAF50" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vert_gap1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/time_bar"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/time_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Time: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#4CAF50" />
+
+            <EditText
+                android:id="@+id/time_input"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Input Time Here"
+                android:inputType="time" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/date_bar"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/date_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Date: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#4CAF50" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Input Date Here"
+                android:inputType="date" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/location_bar"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/start_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Start: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#4CAF50" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Input Start Point Here"
+                android:inputType="textPostalAddress" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/destination_bar"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/destination_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Destination: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#4CAF50" />
+
+            <EditText
+                android:id="@+id/destination_input"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Input Destination Here"
+                android:inputType="textPostalAddress" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
